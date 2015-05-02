@@ -4,7 +4,7 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="tohichProject.pages.HomePageTest"/>
+		    <class name="tohich_selenium_tests.LoginTest"/>
 		</classes>
 	</test>  
 </suite>

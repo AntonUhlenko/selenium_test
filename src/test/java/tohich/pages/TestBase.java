@@ -1,4 +1,4 @@
-package tohichProject.pages;
+package tohich.pages;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,9 +15,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
-import tohichProject.util.PropertyLoader;
-import tohichProject.util.Browser;
-import tohichProject.webdriver.WebDriverFactory;
+import tohich.util.PropertyLoader;
+import tohich.util.Browser;
+import tohich.webdriver.WebDriverFactory;
 
 /*
  * Base class for all the test classes
@@ -52,7 +52,7 @@ public class TestBase {
 		
 		driver = WebDriverFactory.getInstance(gridHubUrl, browser, username,
 				password);
-		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@AfterSuite(alwaysRun = true)
