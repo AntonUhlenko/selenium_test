@@ -103,7 +103,7 @@
         <user.username></user.username>
         <user.password></user.password>
         <grid2.hub></grid2.hub>
-        <site.url>http://192.168.0.106/</site.url>
+        <site.url>http://192.168.1.101/</site.url>
         <browser.name>chrome</browser.name>
         <browser.version></browser.version>
         <browser.platform></browser.platform>
